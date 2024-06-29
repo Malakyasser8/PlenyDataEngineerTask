@@ -5,8 +5,8 @@
     "yearFounded": 1970,
     "headquarters": "Jastside",
     "numberOfLocations": 2132,
-    "createdAt": "2024-06-29T16:41:33.157Z",
-    "updatedAt": "2024-06-29T16:41:33.157Z",
+    "createdAt": "2024-06-29T17:04:03.164Z",
+    "updatedAt": "2024-06-29T17:04:03.164Z",
     "__v": 0
   },
   {
@@ -15,8 +15,8 @@
     "yearFounded": 1600,
     "headquarters": "Gavinstead",
     "numberOfLocations": 1,
-    "createdAt": "2024-06-29T16:41:33.335Z",
-    "updatedAt": "2024-06-29T16:41:33.335Z",
+    "createdAt": "2024-06-29T17:04:03.296Z",
+    "updatedAt": "2024-06-29T17:04:03.296Z",
     "__v": 0
   },
   {
@@ -25,8 +25,8 @@
     "yearFounded": 1982,
     "headquarters": "Fort Lenna",
     "numberOfLocations": 1000,
-    "createdAt": "2024-06-29T16:41:33.530Z",
-    "updatedAt": "2024-06-29T16:41:33.530Z",
+    "createdAt": "2024-06-29T17:04:03.420Z",
+    "updatedAt": "2024-06-29T17:04:03.420Z",
     "__v": 0
   },
   {
@@ -35,8 +35,8 @@
     "yearFounded": 1970,
     "headquarters": "Kundebury",
     "numberOfLocations": 1,
-    "createdAt": "2024-06-29T16:41:33.703Z",
-    "updatedAt": "2024-06-29T16:41:33.703Z",
+    "createdAt": "2024-06-29T17:04:03.545Z",
+    "updatedAt": "2024-06-29T17:04:03.545Z",
     "__v": 0
   },
   {
@@ -45,8 +45,8 @@
     "yearFounded": 1980,
     "headquarters": "Jonesborough",
     "numberOfLocations": 1,
-    "createdAt": "2024-06-29T16:41:33.873Z",
-    "updatedAt": "2024-06-29T16:41:33.873Z",
+    "createdAt": "2024-06-29T17:04:03.899Z",
+    "updatedAt": "2024-06-29T17:04:03.899Z",
     "__v": 0
   },
   {
@@ -55,8 +55,8 @@
     "yearFounded": 1970,
     "headquarters": "Wardfort",
     "numberOfLocations": 1,
-    "createdAt": "2024-06-29T16:41:34.051Z",
-    "updatedAt": "2024-06-29T16:41:34.051Z",
+    "createdAt": "2024-06-29T17:04:04.014Z",
+    "updatedAt": "2024-06-29T17:04:04.014Z",
     "__v": 0
   },
   {
@@ -65,8 +65,8 @@
     "yearFounded": 1600,
     "headquarters": "Lemkeland",
     "numberOfLocations": 1,
-    "createdAt": "2024-06-29T16:41:34.234Z",
-    "updatedAt": "2024-06-29T16:41:34.234Z",
+    "createdAt": "2024-06-29T17:04:04.134Z",
+    "updatedAt": "2024-06-29T17:04:04.134Z",
     "__v": 0
   },
   {
@@ -75,8 +75,8 @@
     "yearFounded": 1935,
     "headquarters": "DuBuqueburgh",
     "numberOfLocations": 9200,
-    "createdAt": "2024-06-29T16:41:34.401Z",
-    "updatedAt": "2024-06-29T16:41:34.401Z",
+    "createdAt": "2024-06-29T17:04:04.280Z",
+    "updatedAt": "2024-06-29T17:04:04.280Z",
     "__v": 0
   },
   {
@@ -85,8 +85,8 @@
     "yearFounded": 1600,
     "headquarters": "West Mylesboro",
     "numberOfLocations": 1,
-    "createdAt": "2024-06-29T16:41:34.585Z",
-    "updatedAt": "2024-06-29T16:41:34.585Z",
+    "createdAt": "2024-06-29T17:04:04.399Z",
+    "updatedAt": "2024-06-29T17:04:04.399Z",
     "__v": 0
   },
   {
@@ -95,58 +95,108 @@
     "yearFounded": 1600,
     "headquarters": "North Ralphport",
     "numberOfLocations": 1,
-    "createdAt": "2024-06-29T16:41:34.754Z",
-    "updatedAt": "2024-06-29T16:41:34.754Z",
+    "createdAt": "2024-06-29T17:04:04.519Z",
+    "updatedAt": "2024-06-29T17:04:04.519Z",
     "__v": 0
   },
   {
-    "_id": "6680393ee40162abba0f5f9f",
-    "brandName": "Johns, Murazik and Lebsack",
-    "yearFounded": 1656,
-    "headquarters": "Nikitatown",
-    "numberOfLocations": 6043,
-    "createdAt": "2024-06-29T16:41:34.920Z",
-    "updatedAt": "2024-06-29T16:41:34.920Z",
+    "_id": "66803e8444a58fdf40a743aa",
+    "brandName": "Turner - Runte",
+    "yearFounded": 1814,
+    "headquarters": "Normamouth",
+    "numberOfLocations": 8687,
+    "createdAt": "2024-06-29T17:04:04.653Z",
+    "updatedAt": "2024-06-29T17:04:04.653Z",
     "__v": 0
   },
   {
-    "_id": "6680393fe40162abba0f5fa2",
-    "brandName": "Wilkinson - Ortiz",
-    "yearFounded": 1601,
-    "headquarters": "South Mylene",
-    "numberOfLocations": 8721,
-    "createdAt": "2024-06-29T16:41:35.095Z",
-    "updatedAt": "2024-06-29T16:41:35.095Z",
+    "_id": "66803e8444a58fdf40a743ac",
+    "brandName": "Stamm, Schinner and Hayes",
+    "yearFounded": 1670,
+    "headquarters": "Springdale",
+    "numberOfLocations": 1562,
+    "createdAt": "2024-06-29T17:04:04.792Z",
+    "updatedAt": "2024-06-29T17:04:04.792Z",
     "__v": 0
   },
   {
-    "_id": "6680393fe40162abba0f5fa5",
-    "brandName": "Hane, Bahringer and Langworth",
-    "yearFounded": 1643,
-    "headquarters": "Lucieside",
-    "numberOfLocations": 6529,
-    "createdAt": "2024-06-29T16:41:35.273Z",
-    "updatedAt": "2024-06-29T16:41:35.273Z",
+    "_id": "66803e8444a58fdf40a743ae",
+    "brandName": "McKenzie - McDermott",
+    "yearFounded": 2016,
+    "headquarters": "Stephenstead",
+    "numberOfLocations": 1164,
+    "createdAt": "2024-06-29T17:04:04.906Z",
+    "updatedAt": "2024-06-29T17:04:04.906Z",
     "__v": 0
   },
   {
-    "_id": "6680393fe40162abba0f5fa8",
-    "brandName": "Hand, Ziemann and Lubowitz",
-    "yearFounded": 1701,
-    "headquarters": "East Destin",
-    "numberOfLocations": 3281,
-    "createdAt": "2024-06-29T16:41:35.444Z",
-    "updatedAt": "2024-06-29T16:41:35.444Z",
+    "_id": "66803e8544a58fdf40a743b0",
+    "brandName": "Rodriguez LLC",
+    "yearFounded": 1928,
+    "headquarters": "Plainfield",
+    "numberOfLocations": 4224,
+    "createdAt": "2024-06-29T17:04:05.027Z",
+    "updatedAt": "2024-06-29T17:04:05.027Z",
     "__v": 0
   },
   {
-    "_id": "6680393fe40162abba0f5fab",
-    "brandName": "Hudson, Parker and King",
-    "yearFounded": 1833,
-    "headquarters": "Ornside",
-    "numberOfLocations": 3445,
-    "createdAt": "2024-06-29T16:41:35.616Z",
-    "updatedAt": "2024-06-29T16:41:35.616Z",
+    "_id": "66803e8544a58fdf40a743b2",
+    "brandName": "Ritchie, Hirthe and Durgan",
+    "yearFounded": 1931,
+    "headquarters": "Lake Margot",
+    "numberOfLocations": 315,
+    "createdAt": "2024-06-29T17:04:05.231Z",
+    "updatedAt": "2024-06-29T17:04:05.231Z",
+    "__v": 0
+  },
+  {
+    "_id": "66803e8544a58fdf40a743b5",
+    "brandName": "Default",
+    "yearFounded": 1960,
+    "headquarters": "Seamusberg",
+    "numberOfLocations": 236,
+    "createdAt": "2024-06-29T17:04:05.357Z",
+    "updatedAt": "2024-06-29T17:04:05.357Z",
+    "__v": 0
+  },
+  {
+    "_id": "66803e8544a58fdf40a743b9",
+    "brandName": "Runolfsson, Morissette and Zieme",
+    "yearFounded": 1600,
+    "headquarters": "New Bennieside",
+    "numberOfLocations": 1351,
+    "createdAt": "2024-06-29T17:04:05.486Z",
+    "updatedAt": "2024-06-29T17:04:05.486Z",
+    "__v": 0
+  },
+  {
+    "_id": "66803e8544a58fdf40a743bd",
+    "brandName": "Jakubowski - Marks",
+    "yearFounded": 1600,
+    "headquarters": "Jeannestad",
+    "numberOfLocations": 4348,
+    "createdAt": "2024-06-29T17:04:05.634Z",
+    "updatedAt": "2024-06-29T17:04:05.634Z",
+    "__v": 0
+  },
+  {
+    "_id": "66803e8544a58fdf40a743c1",
+    "brandName": "Tremblay Group",
+    "yearFounded": 1600,
+    "headquarters": "Reillymouth",
+    "numberOfLocations": 5415,
+    "createdAt": "2024-06-29T17:04:05.751Z",
+    "updatedAt": "2024-06-29T17:04:05.751Z",
+    "__v": 0
+  },
+  {
+    "_id": "66803e8544a58fdf40a743c5",
+    "brandName": "Weissnat Group",
+    "yearFounded": 1600,
+    "headquarters": "Port Annie",
+    "numberOfLocations": 6973,
+    "createdAt": "2024-06-29T17:04:05.873Z",
+    "updatedAt": "2024-06-29T17:04:05.873Z",
     "__v": 0
   }
 ]

@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
-import { Model } from 'mongoose';
+import mongoose, { Model } from 'mongoose';
 import { readData, writeBrands } from 'src/file/file.service';
 import { Brand } from 'src/schemas/brand.schema';
 import { faker } from '@faker-js/faker';
@@ -63,7 +63,11 @@ export class BrandService {
         //     'has no yearFounded, set to default min 1960',
         // );
       }
-    }
+    } else if (
+      brand.yearFounded > new Date().getFullYear() ||
+      brand.yearFounded < 1600
+    )
+      brand.yearFounded = 1600;
   }
 
   async validateHeadquarter(brand: any) {
@@ -124,8 +128,9 @@ export class BrandService {
       await this.validateNumberOfLocations(brand);
       await this.validateYearFounded(brand);
 
+      const id = brand?._id?.$oid || new mongoose.Types.ObjectId();
       const createdBrand = new this.brandModel({
-        _id: brand._id.$oid,
+        _id: id,
         brandName: brand.brandName,
         yearFounded: brand.yearFounded,
         headquarters: brand.headquarters,
@@ -165,8 +170,9 @@ export class BrandService {
 
   async seedBrands() {
     const brands = [];
+    //First 5 testcases are correct
     for (let i = 0; i < 5; i++) {
-      const brand = new Brand({
+      var brand = {
         brandName: faker.company.name(),
         yearFounded: faker.number.int({
           min: 1600,
@@ -174,10 +180,69 @@ export class BrandService {
         }),
         headquarters: faker.location.city(),
         numberOfLocations: faker.number.int({ min: 1, max: 10000 }),
-      });
-      await this.validateOne(brand);
-      brands.push(brand);
+      };
+      var validatedBrand = await this.validateOne(brand);
+      brands.push(validatedBrand);
     }
+    //testcase 6 missing brand name
+    let brand6 = {
+      yearFounded: faker.number.int({
+        min: 1600,
+        max: new Date().getFullYear(),
+      }),
+      headquarters: faker.location.city(),
+      numberOfLocations: faker.number.int({ min: 1, max: 10000 }),
+    };
+    validatedBrand = await this.validateOne(brand6);
+    brands.push(validatedBrand);
+
+    //testcase 7 missing year founded
+    let brand7 = {
+      brandName: faker.company.name(),
+      headquarters: faker.location.city(),
+      numberOfLocations: faker.number.int({ min: 1, max: 10000 }),
+    };
+    validatedBrand = await this.validateOne(brand7);
+    brands.push(validatedBrand);
+
+    //testcase 8 year is past 1600
+    let brand8 = {
+      brandName: faker.company.name(),
+      yearFounded: faker.number.int({
+        min: 1500,
+        max: 1600,
+      }),
+      headquarters: faker.location.city(),
+      numberOfLocations: faker.number.int({ min: 1, max: 10000 }),
+    };
+    validatedBrand = await this.validateOne(brand8);
+    brands.push(validatedBrand);
+
+    //testcase 9 year in future
+    let brand9 = {
+      brandName: faker.company.name(),
+      yearFounded: faker.number.int({
+        min: 2025,
+        max: 2030,
+      }),
+      headquarters: faker.location.city(),
+      numberOfLocations: faker.number.int({ min: 1, max: 10000 }),
+    };
+    var validatedBrand = await this.validateOne(brand9);
+    brands.push(validatedBrand);
+
+    //testcase 10 hqAddress not same name
+    let brand10 = {
+      brandName: faker.company.name(),
+      yearFounded: faker.number.int({
+        min: 2025,
+        max: 2030,
+      }),
+      hqAddress: faker.location.city(),
+      numberOfLocations: faker.number.int({ min: 1, max: 10000 }),
+    };
+    var validatedBrand = await this.validateOne(brand10);
+    brands.push(validatedBrand);
 
     try {
       await this.brandModel.insertMany(brands);
