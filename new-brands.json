@@ -1,0 +1,152 @@
+[
+  {
+    "_id": "66069ff93007b006635c0245",
+    "brandName": "Ward, Hand and Ortiz",
+    "yearFounded": 1970,
+    "headquarters": "Jastside",
+    "numberOfLocations": 2132,
+    "createdAt": "2024-06-29T16:41:33.157Z",
+    "updatedAt": "2024-06-29T16:41:33.157Z",
+    "__v": 0
+  },
+  {
+    "_id": "66069ff93007b006635c0246",
+    "brandName": "Ergonomic Frozen Bacon",
+    "yearFounded": 1600,
+    "headquarters": "Gavinstead",
+    "numberOfLocations": 1,
+    "createdAt": "2024-06-29T16:41:33.335Z",
+    "updatedAt": "2024-06-29T16:41:33.335Z",
+    "__v": 0
+  },
+  {
+    "_id": "66069ff93007b006635c0247",
+    "brandName": "Breitenberg, Greenholt and Ledner",
+    "yearFounded": 1982,
+    "headquarters": "Fort Lenna",
+    "numberOfLocations": 1000,
+    "createdAt": "2024-06-29T16:41:33.530Z",
+    "updatedAt": "2024-06-29T16:41:33.530Z",
+    "__v": 0
+  },
+  {
+    "_id": "66069ff93007b006635c0248",
+    "brandName": "Modern Granite Fish",
+    "yearFounded": 1970,
+    "headquarters": "Kundebury",
+    "numberOfLocations": 1,
+    "createdAt": "2024-06-29T16:41:33.703Z",
+    "updatedAt": "2024-06-29T16:41:33.703Z",
+    "__v": 0
+  },
+  {
+    "_id": "66069ff93007b006635c0249",
+    "brandName": "Gorgeous Granite Pizza",
+    "yearFounded": 1980,
+    "headquarters": "Jonesborough",
+    "numberOfLocations": 1,
+    "createdAt": "2024-06-29T16:41:33.873Z",
+    "updatedAt": "2024-06-29T16:41:33.873Z",
+    "__v": 0
+  },
+  {
+    "_id": "66069ff93007b006635c024a",
+    "brandName": "Oriental Plastic Pants",
+    "yearFounded": 1970,
+    "headquarters": "Wardfort",
+    "numberOfLocations": 1,
+    "createdAt": "2024-06-29T16:41:34.051Z",
+    "updatedAt": "2024-06-29T16:41:34.051Z",
+    "__v": 0
+  },
+  {
+    "_id": "66069ff93007b006635c024b",
+    "brandName": "Refined Granite Towels",
+    "yearFounded": 1600,
+    "headquarters": "Lemkeland",
+    "numberOfLocations": 1,
+    "createdAt": "2024-06-29T16:41:34.234Z",
+    "updatedAt": "2024-06-29T16:41:34.234Z",
+    "__v": 0
+  },
+  {
+    "_id": "66069ff93007b006635c024c",
+    "brandName": "Corkery Inc",
+    "yearFounded": 1935,
+    "headquarters": "DuBuqueburgh",
+    "numberOfLocations": 9200,
+    "createdAt": "2024-06-29T16:41:34.401Z",
+    "updatedAt": "2024-06-29T16:41:34.401Z",
+    "__v": 0
+  },
+  {
+    "_id": "66069ff93007b006635c024d",
+    "brandName": "Licensed Concrete Tuna",
+    "yearFounded": 1600,
+    "headquarters": "West Mylesboro",
+    "numberOfLocations": 1,
+    "createdAt": "2024-06-29T16:41:34.585Z",
+    "updatedAt": "2024-06-29T16:41:34.585Z",
+    "__v": 0
+  },
+  {
+    "_id": "66069ff93007b006635c024e",
+    "brandName": "Generic Cotton Pizza",
+    "yearFounded": 1600,
+    "headquarters": "North Ralphport",
+    "numberOfLocations": 1,
+    "createdAt": "2024-06-29T16:41:34.754Z",
+    "updatedAt": "2024-06-29T16:41:34.754Z",
+    "__v": 0
+  },
+  {
+    "_id": "6680393ee40162abba0f5f9f",
+    "brandName": "Johns, Murazik and Lebsack",
+    "yearFounded": 1656,
+    "headquarters": "Nikitatown",
+    "numberOfLocations": 6043,
+    "createdAt": "2024-06-29T16:41:34.920Z",
+    "updatedAt": "2024-06-29T16:41:34.920Z",
+    "__v": 0
+  },
+  {
+    "_id": "6680393fe40162abba0f5fa2",
+    "brandName": "Wilkinson - Ortiz",
+    "yearFounded": 1601,
+    "headquarters": "South Mylene",
+    "numberOfLocations": 8721,
+    "createdAt": "2024-06-29T16:41:35.095Z",
+    "updatedAt": "2024-06-29T16:41:35.095Z",
+    "__v": 0
+  },
+  {
+    "_id": "6680393fe40162abba0f5fa5",
+    "brandName": "Hane, Bahringer and Langworth",
+    "yearFounded": 1643,
+    "headquarters": "Lucieside",
+    "numberOfLocations": 6529,
+    "createdAt": "2024-06-29T16:41:35.273Z",
+    "updatedAt": "2024-06-29T16:41:35.273Z",
+    "__v": 0
+  },
+  {
+    "_id": "6680393fe40162abba0f5fa8",
+    "brandName": "Hand, Ziemann and Lubowitz",
+    "yearFounded": 1701,
+    "headquarters": "East Destin",
+    "numberOfLocations": 3281,
+    "createdAt": "2024-06-29T16:41:35.444Z",
+    "updatedAt": "2024-06-29T16:41:35.444Z",
+    "__v": 0
+  },
+  {
+    "_id": "6680393fe40162abba0f5fab",
+    "brandName": "Hudson, Parker and King",
+    "yearFounded": 1833,
+    "headquarters": "Ornside",
+    "numberOfLocations": 3445,
+    "createdAt": "2024-06-29T16:41:35.616Z",
+    "updatedAt": "2024-06-29T16:41:35.616Z",
+    "__v": 0
+  }
+]
